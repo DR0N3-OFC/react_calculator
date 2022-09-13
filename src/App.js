@@ -1,9 +1,9 @@
-import Input from "./components/Input";
-import Button from "./components/Button";
-
 import { Container, Content, Row } from "./styles";
 import { useState } from "react";
+
+import Input from "./components/Input";
 import Title from "./components/Title";
+import Button from "./components/Button";
 
 export default function App() {
   const [currentNumber, setCurrentNumber] = useState('0');
